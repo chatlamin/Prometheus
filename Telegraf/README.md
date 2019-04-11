@@ -1,0 +1,1 @@
+https://blog.nobugware.com/post/2016/telegraf_prometheus_metrics_swiss_army_knife/
