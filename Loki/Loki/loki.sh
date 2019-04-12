@@ -1,6 +1,3 @@
-sudo mkdir -p /home/docker/containers/loki/config
-sudo touch /home/docker/containers/loki/config/loki.yaml
-
 docker run --name loki \
     --detach \
     --publish 3100:3100  \

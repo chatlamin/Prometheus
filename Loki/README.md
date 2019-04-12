@@ -1,16 +1,9 @@
-https://rtfm.co.ua/grafana-labs-loki-raspredelyonnaya-sistema-tegi-i-filtry/
-https://rtfm.co.ua/grafana-labs-loki-sbor-i-prosmotr-logov/
+# Loki
 
-удаленный promtail
-в конфиге меняем
+Loki - хранилище для логов
 
-    client:
-      url: http://loki:3100/api/prom/push
-на
+Promtail - агент для сбора и записи логов в Loki
 
-    client:
-      url: http://192.168.1.2:3100/api/prom/push 
-где 192.168.1.2 ip вашего loki
+[Источник](https://rtfm.co.ua/grafana-labs-loki-raspredelyonnaya-sistema-tegi-i-filtry/)
 
-добавить дополнительные теги в labels:
-например host: server3
+[Источник](https://rtfm.co.ua/grafana-labs-loki-sbor-i-prosmotr-logov/)
